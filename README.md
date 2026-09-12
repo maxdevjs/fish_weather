@@ -30,16 +30,16 @@ $ weather [s/short] id                # retrieve short weather information for t
 Examples:
 
 ```sh
-$ weather # print usage
+$ weather                             # print usage
 Usage: weather [l/long [id] | [s/short [id] ]
-$ weather l # long output about current (vpn server?) location
-$ weather l London # long output about London location
-$ weather long Tokyo # long output about Tokyo location
-$ weather s # short output about current (vpn server?) location
+$ weather l                           # long output about current (vpn server?) location
+$ weather l London                    # long output about London location
+$ weather long Tokyo                  # long output about Tokyo location
+$ weather s                           # short output about current (vpn server?) location
 Musk City, Musk City, Mars: ☀️  +27°C
-$ weather s London # short output about London location
+$ weather s London                    # short output about London location
 London: ☁️  +17°C
-$ weather short Tokyo # short output about Tokyo location
+$ weather short Tokyo                 # short output about Tokyo location
 Tokyo: 🌦️  +24°C
 
 ```
@@ -47,7 +47,3 @@ Tokyo: 🌦️  +24°C
 ## TODO
 
 - [ ] ...?
-
-```
-
-```
