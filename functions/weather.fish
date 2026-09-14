@@ -18,6 +18,8 @@ function weather
             else
                 weather-long
             end
+        case m moon
+            weather-moon
         case '*'
             echo $usage
     end
@@ -35,4 +37,8 @@ end
 function weather-short
     set location (string join '+' -- $argv)
     curl -s "wttr.in/$location?format=3"
+end
+
+function weather-moon
+    curl -s "wttr.in/Moon"
 end

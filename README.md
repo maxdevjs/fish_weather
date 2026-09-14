@@ -24,6 +24,7 @@ $ weather [l/long]                    # retrieve weather broadcast for the curre
 $ weather [l/long] id                 # retrieve weather broadcast for the provided location
 $ weather [s/short]                   # retrieve short weather information for the current (vpn server?) location
 $ weather [s/short] id                # retrieve short weather information for the provided location
+$ weather [m/moon]                    # retrieve short weather information for the provided location
 
 ```
 
@@ -33,17 +34,45 @@ Examples:
 $ weather                             # print usage
 Usage: weather [l/long [id] | [s/short [id] ]
 $ weather l                           # long output about current (vpn server?) location
+# ...
 $ weather l London                    # long output about London location
+# ...
 $ weather long Tokyo                  # long output about Tokyo location
+# ...
 $ weather s                           # short output about current (vpn server?) location
 Musk City, Musk City, Mars: ☀️  +27°C
 $ weather s London                    # short output about London location
 London: ☁️  +17°C
 $ weather short Tokyo                 # short output about Tokyo location
 Tokyo: 🌦️  +24°C
+$ weather m
+                            --.
+                                --.
+                                   `-.
+                                      `-.
+                                         \
+                                        . \.
+                                            \
+                                         @@@ \
+                                         @@@@|
+                                          @@  \         New Moon +
+                                         @    |         3  2:28:07
+                                         @@@  |         First Quarter -
+                                         @@@  |         4 14:48:59
+                                         @  o /
+                                             |
+                                           . /
+                                            /
+                                      .-. /'
+                                     `-' /
+                                      .-'
+                                   .-'
+                                --'
+                            --'
 
 ```
 
 ## TODO
 
+- [x] add Moon
 - [ ] ...?
