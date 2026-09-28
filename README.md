@@ -45,7 +45,8 @@ $ weather s London                    # short output about London location
 London: ☁️  +17°C
 $ weather short Tokyo                 # short output about Tokyo location
 Tokyo: 🌦️  +24°C
-$ weather m
+$ weather m                           # showMoon phase in full-output mode
+$ weather moon                        # showMoon phase in full-output mode
                             --.
                                 --.
                                    `-.
@@ -75,4 +76,5 @@ $ weather m
 ## TODO
 
 - [x] add Moon
+- [ ] add moon phase for a particular date with format: @YYYY-MM-DD
 - [ ] ...?
